@@ -33,6 +33,9 @@ gem 'jbuilder', '2.4.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Hirb for Rails console
+gem 'hirb', '0.7.3'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.12'
