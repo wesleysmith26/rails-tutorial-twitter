@@ -36,6 +36,9 @@ gem 'jbuilder', '2.4.1'
 # Hirb for Rails console
 gem 'hirb', '0.7.3'
 
+# Bootstrap SASS for CSS
+gem 'bootstrap-sass', '3.3.6'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.12'
