@@ -29,15 +29,18 @@ gem 'jbuilder', '2.4.1'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.11'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-# Hirb for Rails console
+# Use Hirb for Rails console
 gem 'hirb', '0.7.3'
-
-# Bootstrap SASS for CSS
+# Use Bootstrap SASS for CSS
 gem 'bootstrap-sass', '3.3.6'
+# Use faker to generate fake users
+gem 'faker', '1.6.6'
+# Use will_paginate to paginate users pages
+gem 'will_paginate', '3.1.0'
+# Use bootstrap-will_paginate to give pagination bootstrap CSS
+gem 'bootstrap-will_paginate', '0.0.10'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
