@@ -41,6 +41,12 @@ gem 'faker', '1.6.6'
 gem 'will_paginate', '3.1.0'
 # Use bootstrap-will_paginate to give pagination bootstrap CSS
 gem 'bootstrap-will_paginate', '0.0.10'
+# Use CarrierWave for image upload
+gem 'carrierwave', '0.11.2'
+# Use Mini Magick for image resizing
+gem 'mini_magick', '4.5.1'
+# Use Fog for image upload in production
+gem 'fog', '1.38.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
