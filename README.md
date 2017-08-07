@@ -1,5 +1,13 @@
 # Ruby on Rails Tutorial sample application
 
+## [Live Project](https://glacial-refuge-87092.herokuapp.com/)
+
+Example Account
+```
+Username: example@railstutorial.org
+Password: password
+```
+
 This is the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
